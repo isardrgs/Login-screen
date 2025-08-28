@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #8d5dad;
+    width: 100%;
+    height: 100vh;
+}
+
+#content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.welcome-area {
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #4e2957;
+    width: 60vw;
+    height: 100vh;
+    background-color: #f1f1f1;
+
+}
+
+.welcome-text {
+    font-size: 1.7rem;
+}
+
+.welcome-area p {
+    color: #6d3583;
+    font-size: 1.25rem;
+}
+
+.login-area {
+    display: grid;
+    place-items: center;
+    color: #525252;
+    background-color: #3f2649;
+
+
+}
+
+#form {
+
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    border-radius: 8px;
+    padding: 100px;
+    background-color: #f1f1f1;
+
+}
+
+#form h1 {
+    font-size: 2.3rem;
+}
+
+#button {
+    border: none;
+    font-size: 1.25rem;
+    font-weight: bold;
+    background-color: #4a2055;
+    color: #f8fafc;
+    padding: 0.5rem 0;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#email {
+    font-size: 1.25rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.35rem;
+    border-radius: 3px;
+    margin-top: 3px;
+}
+
+#email input {
+    width: 100%;
+    border: none;
+    color: #525252;
+
+
+}
+
+#password input {
+    width: 100%;
+    border: none;
+    color: #525252;
+
+}
+
+#password {
+    font-size: 1.25rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.35rem;
+    border-radius: 3px;
+    margin-top: 3px;
+
+}
